@@ -1,0 +1,46 @@
+<div class="row">
+                <div class="col-md-4">
+                  <div class="info-box  bg-info  text-white">
+                    <div class="info-icon bg-info-dark">
+                      <i class="fa fa-shopping-cart fa-4x"></i>
+                    </div>
+                    <div class="info-details" ng-click="t1()">
+                      <h4>{{tiles[0].tile}}   <span class="pull-right">{{tiles[0].value}} </span></h4>
+                      <p>{{tiles[0].status}}  <span class="badge pull-right bg-white text-info"> {{tiles[0].success}}  <i class="fa fa-arrow-down fa-1x"></i> </span> </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info-box  bg-success  text-white">
+                    <div class="info-icon bg-success-dark">
+                      <i class="fa fa-cloud-download fa-4x"></i>
+                    </div>
+                    <div class="info-details" ng-click="t2()">
+                      <h4>{{tiles[1].tile}}   <span class="pull-right">{{tiles[1].value}}</span></h4>
+                      <p>{{tiles[1].status}} <span class="badge pull-right bg-white text-success"> {{tiles[1].success}} <i class="fa fa-arrow-up fa-1x"></i> </span> </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info-box  bg-warning  text-white">
+                    <div class="info-icon bg-warning-dark">
+                      <i class="fa fa-comments fa-4x"></i>
+                    </div>
+                    <div class="info-details" ng-click="t3()">
+                      <h4>{{tiles[2].tile | uppercase}}   <span class="pull-right">{{tiles[2].value}}</span></h4>
+                      <p>{{tiles[2].status}} <span class="badge pull-right bg-white text-warning"> {{tiles[2].success}} <i class="fa fa-arrow-up fa-1x"></i> </span> </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-md-4">
+                  <div class="info-box  bg-warning  text-white">
+                    <div class="info-icon bg-warning-dark">
+                      <i class="fa fa-comments fa-4x"></i>
+                    </div>
+                    <div class="info-details" ng-click="textra()">
+                      <h4>{{tiles[7].tile}}   <span class="pull-right">{{tiles[7].value}}</span></h4>
+                      <p>{{tiles[7].status}} <span class="badge pull-right bg-white text-warning"> {{tiles[7].success}} <i class="fa fa-arrow-up fa-1x"></i> </span> </p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
